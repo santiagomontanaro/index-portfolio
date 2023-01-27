@@ -13,6 +13,8 @@ Es super sencillo!
 - El archivo de texto 'Resumen' contiene mi C.V. por si te interesa.
 - Por ultimo están los links de interés que te van a direccionar a mis respectivos links de contacto y redes.
 
+Esto es un trabajo en desarrollo y con el paso del tiempo voy a ir agregando mas links y proyectos!
+
 # Gracias por ver!
 _____________________________________________________________________
 
@@ -30,6 +32,8 @@ It's super simple!
 - The 'Projects' folder contains projects I've worked on.
 - The text file 'Resume' contains my C.V. if you're interested.
 - Finally, there are the links of interest that will direct you to my respective contact links and socials.
+
+This is a WIP (Work In Progress) and over the time I will add more links and projects!
 
 ### Imagenes de demostración / Demo images
 
