@@ -6,6 +6,7 @@ import linkedinIcon from '../img/linkedin-icon.png'
 import githubIcon from '../img/github-icon.png'
 import wspIcon from '../img/wsp-icon.png'
 import spotifyIcon from '../img/spotify-icon.png'
+import gmailIcon from '../img/gmail-icon.png'
 import deskMod from '../scss/Desktop.module.css'
 
 function Desktop() {
@@ -47,7 +48,16 @@ function Desktop() {
       icon: wspIcon,
       link: 'https://wa.me/5493412804346?text=Hola%20Santiago,%20me%20gustaría%20contactarte%20por%20tu%20CV.',
       blank: true
-    },
+    }
+  ]
+
+  const gmail = [
+    {
+      name: 'Gmail',
+      icon: gmailIcon,
+      link: 'mailto:santmon99@gmail.com',
+      blank: true
+    }
   ]
 
   return (
@@ -61,6 +71,18 @@ function Desktop() {
                 <p>{item.name}</p>
               </div>
             </NavLink>
+          )
+        })
+      }
+      {
+        gmail.map((item) => {
+          return (
+            <a href={`${item.link}`} key={item.id} target={item.blank ? '_blank' : ''} className={deskMod.link} style={{ textDecoration: 'none' }}>
+              <div className={deskMod.items}>
+                <img src={item.icon} alt={item.name} className={deskMod.icon} />
+                <p>{item.name}</p>
+              </div>
+            </a>
           )
         })
       }
