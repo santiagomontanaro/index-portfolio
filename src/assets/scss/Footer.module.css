@@ -1,0 +1,26 @@
+.footer {
+  z-index: 1;
+}
+.footer .icon {
+  color: #fff;
+  font-size: 1.4rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  float: right;
+  transition: 0.2s ease-in;
+}
+.footer .icon:hover {
+  transform: scale(1.2);
+  transition: 0.2s ease-out;
+}
+
+@media (max-width: 768px) {
+  .footer .icon {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .footer .icon {
+    display: none;
+  }
+}/*# sourceMappingURL=Footer.module.css.map */

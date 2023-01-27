@@ -1,0 +1,46 @@
+.desktop {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4em 3em;
+  gap: 2em;
+
+  .items {
+    padding: .5em 1em;
+    cursor: pointer;
+    color: #FFF;
+    font-size: .8rem;
+    letter-spacing: .9px;
+    font-weight: 500;
+    text-align: center;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+      border-radius: 6px;
+    }
+
+    &:active {
+      background-color: rgba(255, 255, 255, 0.5);
+      border-radius: 6px;
+    }
+
+    .link {
+      color: inherit;
+      text-shadow: 0 0 2px rgba(0, 0, 0, 0.835);
+    }
+
+  }
+
+  .icon {
+    width: 80px;
+  }
+}
+
+// media query for mobile devices
+@media (max-width: 768px) {
+  .desktop {
+    justify-content: center;
+    padding: 4em 2em;
+    gap: 1em;
+  }
+}

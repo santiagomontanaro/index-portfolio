@@ -1,0 +1,12 @@
+.main {
+  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+}
+.main .title {
+  position: absolute;
+  z-index: 1;
+  font-weight: 600;
+  left: 50px;
+  top: 2px;
+}/*# sourceMappingURL=General.module.css.map */

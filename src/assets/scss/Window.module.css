@@ -1,0 +1,84 @@
+.box {
+  position: relative;
+  top: 40px;
+  left: 30px;
+  background-color: hsl(255deg, 100%, 100%);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  width: 660px;
+  height: 400px;
+  overflow: hidden;
+}
+.box .box_bar {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px 0px 10px;
+}
+.box .box_bar .box_bar_close {
+  display: flex;
+  flex-direction: row;
+}
+.box .box_bar .box_bar_close ul {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+.box .box_bar .box_bar_close ul li {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+.box .box_bar .box_bar_close ul .close {
+  background-color: #F84142;
+}
+.box .box_bar .box_bar_close ul .close:hover {
+  background-color: #e33737;
+}
+.box .box_bar .box_bar_close ul .minimize {
+  background-color: #F9BD0C;
+}
+.box .box_bar .box_bar_close ul .expand {
+  background-color: #01B82E;
+}
+.box .box_bar .box_bar_title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.box hr {
+  opacity: 0.2;
+  margin-bottom: 0;
+}
+.box .main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  gap: 1rem;
+  padding: 1em;
+}
+.box .main .items {
+  width: 100px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 1em;
+}
+.box .main .items:hover {
+  background-color: rgba(208, 208, 208, 0.5);
+  border-radius: 6px;
+}
+.box .main .items:active {
+  background-color: rgba(208, 208, 208, 0.9);
+  border-radius: 6px;
+}
+.box .main .items a {
+  text-decoration: none;
+  color: #000;
+  letter-spacing: 0.7px;
+}/*# sourceMappingURL=Window.module.css.map */

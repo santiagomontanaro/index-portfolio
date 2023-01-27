@@ -1,0 +1,39 @@
+.desktop {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4em 3em;
+  gap: 2em;
+}
+.desktop .items {
+  padding: 0.5em 1em;
+  cursor: pointer;
+  color: #FFF;
+  font-size: 0.8rem;
+  letter-spacing: 0.9px;
+  font-weight: 500;
+  text-align: center;
+}
+.desktop .items:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+}
+.desktop .items:active {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 6px;
+}
+.desktop .items .link {
+  color: inherit;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.835);
+}
+.desktop .icon {
+  width: 80px;
+}
+
+@media (max-width: 768px) {
+  .desktop {
+    justify-content: center;
+    padding: 4em 2em;
+    gap: 1em;
+  }
+}/*# sourceMappingURL=Desktop.module.css.map */
