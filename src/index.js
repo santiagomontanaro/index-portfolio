@@ -11,6 +11,8 @@ import {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-    <App />
+    <StrictMode>
+      <App />
+    </StrictMode>
   </BrowserRouter>
 );

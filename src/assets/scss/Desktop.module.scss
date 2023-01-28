@@ -39,8 +39,14 @@
 // media query for mobile devices
 @media (max-width: 768px) {
   .desktop {
-    justify-content: center;
-    padding: 4em 2em;
+    justify-content: space-between;
     gap: 1em;
+    padding: 4em 2em;
+  }
+
+  .items {
+    p {
+      width: 9em;
+    }
   }
 }

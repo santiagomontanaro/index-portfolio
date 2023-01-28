@@ -15,39 +15,49 @@ function Desktop() {
   const desktopIcons = [
     {
       id: 1,
-      name: 'Links proyectos',
+      name: 'Proyectos',
       icon: folderIcon,
       link: '/projects'
     },
     {
       id: 2,
-      name: 'Resumen',
+      name: 'Mi C.V.',
       icon: txtIcon,
       link: '/resume'
     },
     {
+      id: 3,
       name: 'Github',
       icon: githubIcon,
       link: 'https://github.com/santiagomontanaro',
       blank: true
     },
     {
+      id: 4,
       name: 'Spotify',
       icon: spotifyIcon,
       link: 'https://open.spotify.com/playlist/3DIjw8eboATMgRN2RC6mz6?si=d654986888d44dd5',
       blank: true
     },
     {
+      id: 5,
       name: 'Linkedin',
       icon: linkedinIcon,
       link: 'https://www.linkedin.com/in/montsan',
       blank: true
     },
     {
+      id: 6,
       name: 'Whatsapp',
       icon: wspIcon,
       link: 'https://wa.me/5493412804346?text=Hola%20Santiago,%20me%20gustaría%20contactarte%20por%20tu%20CV.',
       blank: true
+    },
+    {
+      id: 7,
+      name: 'About this',
+      icon: txtIcon,
+      link: '/about this'
     }
   ]
 
@@ -75,9 +85,9 @@ function Desktop() {
         })
       }
       {
-        gmail.map((item) => {
+        gmail.map((item, index) => {
           return (
-            <a href={`${item.link}`} key={item.id} target={item.blank ? '_blank' : ''} className={deskMod.link} style={{ textDecoration: 'none' }}>
+            <a href={`${item.link}`} key={index} target={item.blank ? '_blank' : ''} className={deskMod.link} style={{ textDecoration: 'none' }}>
               <div className={deskMod.items}>
                 <img src={item.icon} alt={item.name} className={deskMod.icon} />
                 <p>{item.name}</p>

@@ -35,7 +35,7 @@
           background-color: #F84142;
 
           &:hover {
-            background-color: #e33737;
+            background-color: #c42b2b;
           }
         }
 
@@ -88,11 +88,36 @@
         border-radius: 6px;
       }
 
-      a {
-        text-decoration: none;
-        color: #000;
-        letter-spacing: .7px;
-      }
     }
+
+    a {
+      color: #000;
+      letter-spacing: .7px;
+    }
+  }
+}
+
+// device query
+
+@media (max-width: 768px) {
+  .box {
+    width: 350px;
+    height: 580px;
+    top: 55px;
+    left: 20px;
+
+    .main {
+      display: grid;
+      grid-template-columns: 100px 100px;
+      grid-template-rows: 140px 140px 140px;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .box {
+    width: 340px;
+    height: 530px;
+    left: 10px;
   }
 }

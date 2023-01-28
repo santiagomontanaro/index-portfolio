@@ -11,7 +11,7 @@ Es un anexo que funciona a modo de portafolio, donde se muestran mis proyectos y
 Es super sencillo!
 - La carpeta 'Proyectos' contiene proyectos en los que he trabajado.
 - El archivo de texto 'Resumen' contiene mi C.V. por si te interesa.
-- Por ultimo están los links de interés que te van a direccionar a mis respectivos links de contacto y redes.
+- Por ultimo están los links de interés que te van a redireccionar a mis respectivos links de contacto y redes.
 
 Esto es un trabajo en desarrollo y con el paso del tiempo voy a ir agregando mas links y proyectos!
 
@@ -43,4 +43,4 @@ This is a WIP (Work In Progress) and over the time I will add more links and pro
 
 # Thanks for watching!
 
-## Hecho por / Made by [Santiago Montanaro]
+## Made by [Santiago Montanaro]

@@ -7,6 +7,7 @@ import Desktop from './assets/components/Desktop';
 import Footer from './assets/components/Footer';
 import Projects from './Pages/Projects';
 import Resume from './Pages/Resume';
+import About from './Pages/About';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
         <Route path="/" element={<Desktop />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/resume" element={<Resume />} />
+        <Route path="/about this" element={<About />} />
       </Routes>
       <Footer />
     </div>

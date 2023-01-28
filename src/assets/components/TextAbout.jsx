@@ -2,7 +2,7 @@ import { React, useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 import style from '../scss/Window.module.css'
 import textMod from '../scss/TextEdit.module.css'
-import textresume from '../../assets/resume'
+import textAbout from '../about'
 
 function Window() {
 
@@ -65,13 +65,13 @@ function Window() {
           </div>
         </div>
         <div className={style.box_bar_title}>
-          <p>TextEdit - Resumen</p>
+          <p>TextEdit - About this</p>
         </div>
       </div>
       <hr />
       {/* textedit */}
       <div className={textMod.textarea}>
-        <textarea id="textarea" cols="30" rows="10" defaultValue={textresume} />
+        <textarea id="textarea" cols="30" rows="10" defaultValue={textAbout} />
       </div>
     </div >
   )

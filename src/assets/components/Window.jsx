@@ -71,16 +71,21 @@ function Window() {
       name: 'Starbucks Landing Page',
       icon: chromeIcon,
       link: 'https://santiagomontanaro.github.io/starbucks-landing-switch-dark/#'
+    },
+    {
+      name: 'Randomize Color',
+      icon: chromeIcon,
+      link: 'https://santiagomontanaro.github.io/color-flipper/'
     }
   ]
 
   return (
     <div className={style.box} id="mydiv" >
-      <div className={`${style.box_bar} ${style.box_bar_header}`} id="mydivheader" onMouseDown={() => dragElement(document.getElementById("mydiv"))}>
+      <div className={`${style.box_bar}`} id="mydivheader" onMouseDown={() => dragElement(document.getElementById("mydiv"))}>
         <div className={style.box_bar_close}>
           <div>
             <ul>
-              <NavLink to={'/'}><li className={style.close}></li></NavLink>
+              <NavLink to={'/'}><li className={style.close} title='Cerrar'></li></NavLink>
               <li className={style.minimize}></li>
               <li className={style.expand}></li>
             </ul>
@@ -95,14 +100,12 @@ function Window() {
         {
           proyects.map((item, index) => {
             return (
-              <div key={index} className={style.items}>
-                <NavLink to={`${item.link}`} target='_blank'>
-                  <div>
-                    <img src={item.icon} alt={item.name} />
-                    <p>{item.name}</p>
-                  </div>
-                </NavLink>
-              </div>
+              <NavLink key={index} to={`${item.link}`} target='_blank'>
+                <div className={style.items}>
+                  <img src={item.icon} alt={item.name} />
+                  <p>{item.name}</p>
+                </div>
+              </NavLink>
             )
           })
         }

@@ -16,13 +16,13 @@ Freelance - Web Design
 2020 - 2021
 ● Maquetación web usando HTML5, CSS3 y JS (vanilla)
 ● Desarrollo UI
-------------------------------------------------------------
+------------------------------------------
 uTest - QA Testing
 2020 - 2021
 ● Testing de páginas web, software y apps.
 ● Detección de errores.
 ● Casos de uso y escenarios.
-------------------------------------------------------------
+------------------------------------------
 Black & White (pyme) - 3D rendering
 2019 - 2021
 ● Renders fotorealistas de arquitectura y muebles.
@@ -37,15 +37,15 @@ Fyo (agroempresa) - QA Testing
 2021 - 2021
 Curso de Testing QA
 Complementario
-------------------------------------------------------------
+------------------------------------------
 I.S.E.I. 4030 - Instituto Superior de Estudios Informáticos - Analista de Sistemas
 2019 - 2021
 Educación terciaria
-------------------------------------------------------------
+------------------------------------------
 E.E.T. N° 1175 Dr. Gabriel Carrasco - Técnico Electrónico
 2017 - 2018
 Educación Secundaria
-------------------------------------------------------------
+------------------------------------------
 E.E.T.P.I. N° 8235 Ingeniero Enrique B. Gomara - Técnico Electrónico
 2012 - 2014
 Educación Secundaria
