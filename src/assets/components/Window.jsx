@@ -1,7 +1,7 @@
 import { React, useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 import style from '../scss/Window.module.css'
-import chromeIcon from '../img/chrome-icon.png'
+import chromeIcon from '../img/chrome-icon.webp'
 
 function Window() {
 

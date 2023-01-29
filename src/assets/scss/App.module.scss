@@ -1,6 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
-
-$mac-font: 'SF Pro Display', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 * {
   -webkit-touch-callout: none;
@@ -20,13 +18,13 @@ $mac-font: 'SF Pro Display', sans-serif;
 }
 
 body {
-  font-family: $mac-font;
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
   line-height: 1.5;
   color: #000;
   background-color: #fff;
   margin: 0;
-  background-image: url('../img/background-wallp.jpg');
+  background-image: url('../img/background-wallp.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

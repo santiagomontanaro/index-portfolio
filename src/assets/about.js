@@ -1,16 +1,16 @@
-let textAbout = `Bienvenido a mi anexo de links de interés 🥳
+let textAbout=`Bienvenido a mi anexo de links de inter\xe9s 🥳
 *Hecho con React, React Router y CSS Modules*
 
-¿Qué es esto? 🤯
+\xbfQu\xe9 es esto? 🤯
 Es un anexo que funciona a modo de portafolio, 
-donde se muestran mis proyectos y links de interés y contacto.
+donde se muestran mis proyectos y links de inter\xe9s y contacto.
 
-¿Cómo funciona? 🤔
+\xbfC\xf3mo funciona? 🤔
 Es super sencillo!
 
-- La carpeta 'Proyectos' contiene proyectos en los que he trabajado. Ahí podrás ver algunos de mis proyectos finalizados, que no son muchos pero son humildes.
+- La carpeta 'Proyectos' contiene proyectos en los que he trabajado. Ah\xed podr\xe1s ver algunos de mis proyectos finalizados, que no son muchos pero son humildes.
 - El archivo de texto contiene mi C.V. por si te interesa.
-- Por ultimo están los links de interés que te van a redireccionar a mis redes o número personal por si quieres ponerte en contacto.
+- Por ultimo est\xe1n los links de inter\xe9s que te van a redireccionar a mis redes o n\xfamero personal por si quieres ponerte en contacto.
 
 *Esto es un trabajo en desarrollo y con el paso del tiempo voy a ir agregando mas links y proyectos*
 
@@ -34,6 +34,4 @@ It's super simple!
 *This is a WIP (Work In Progress) and over the time I will add more links and projects*
 
 Thanks for watching!
-`
-
-export default textAbout
+`;export default textAbout;

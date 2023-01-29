@@ -39,4 +39,9 @@
   .items p {
     width: 9em;
   }
+}
+@media (max-width: 360px) {
+  .desktop {
+    padding: 4em 1.2em;
+  }
 }/*# sourceMappingURL=Desktop.module.css.map */

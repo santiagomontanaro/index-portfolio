@@ -35,12 +35,6 @@ It's super simple!
 
 This is a WIP (Work In Progress) and over the time I will add more links and projects!
 
-### Imagenes de demostración / Demo images
-
-![Demo](./src/assets/img/demo-1.png)
-![Demo](./src/assets/img/demo-2.png)
-![Demo](./src/assets/img/demo-3.png)
-
 # Thanks for watching!
 
 ## Made by [Santiago Montanaro]

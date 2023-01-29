@@ -1,7 +1,7 @@
-@import 'App.module.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 .textarea {
-  height: 360px;
+  height: 364px;
   overflow: hidden;
 
   textarea {
@@ -11,10 +11,9 @@
     outline: none;
     resize: none;
     font-size: 16px;
-    font-family: $mac-font;
+    font-family: 'Roboto', sans-serif;
     padding: 0.5rem;
   }
-
 }
 
 // Scrollbar styles
@@ -37,7 +36,7 @@
 @media (max-width: 768px) {
 
   .textarea {
-    height: 485px;
+    height: 543px;
 
     textarea {
       font-size: 1rem;
@@ -47,4 +46,18 @@
   ::-webkit-scrollbar {
     width: 0;
   }
+}
+
+@media (max-width: 375px) {
+  
+  .textarea {
+    height: 500px;
+  }
+}
+
+@media (max-width: 360px) {
+  
+    .textarea {
+      height: 500px;
+    }
 }
