@@ -70,12 +70,13 @@
     justify-content: space-evenly;
     text-align: center;
     gap: 1rem;
-    padding: 1em;
+    padding: .5em;
 
 
     .items {
       height: fit-content;
       line-height: initial;
+      padding: 10px;
 
       &:hover {
         background-color: rgba(208, 208, 208, 0.5);

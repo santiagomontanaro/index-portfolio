@@ -13,12 +13,12 @@ Desarrollador web UI, resolutivo, enfocado y creativo. Tengo buena comunicación
 
 //EXPERIENCIA
 Freelance - Web Design
-2020 - 2021
+2022 - 2022 (6 meses)
 ● Maquetación web usando HTML5, CSS3 y JS (vanilla)
 ● Desarrollo UI
 ------------------------------------------
 uTest - QA Testing
-2020 - 2021
+2021 - 2021 (4 meses)
 ● Testing de páginas web, software y apps.
 ● Detección de errores.
 ● Casos de uso y escenarios.

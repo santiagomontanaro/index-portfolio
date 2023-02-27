@@ -2,7 +2,7 @@
   position: relative;
   top: 40px;
   left: 30px;
-  background-color: hsl(255deg, 100%, 100%);
+  background-color: hsl(255, 100%, 100%);
   border: 1px solid #ccc;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -60,13 +60,13 @@
   justify-content: space-evenly;
   text-align: center;
   gap: 1rem;
-  padding: 1em;
+  padding: 0.5em;
 }
 .box .main .items {
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   line-height: initial;
+  padding: 10px;
 }
 .box .main .items:hover {
   background-color: rgba(208, 208, 208, 0.5);
