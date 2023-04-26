@@ -92,7 +92,7 @@ function Window() {
           </div>
         </div>
         <div className={style.box_bar_title}>
-          <p>Finder - Proyectos</p>
+          <p>Finder - Projects</p>
         </div>
       </div>
       <hr />

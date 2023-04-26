@@ -3,9 +3,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 0 0.5rem 0.1rem hsla(0, 0%, 0%, 0.15);
-  padding: 0rem 1rem;
-  font-size: 15px;
+  box-shadow: 0 0 0.8rem 0.1rem hsla(0, 0%, 0%, 0.4);
+  padding: 0.1rem 1rem;
+  font-size: 0.9rem;
   background-color: hsla(255, 100%, 100%, 0.8);
   color: #000000;
   z-index: 1;

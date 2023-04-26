@@ -1,4 +1,21 @@
-let textAbout=`Bienvenido a mi anexo de links de inter\xe9s 🥳
+let textAbout=`Welcome to my main page of links of interest 🥳
+*Made with React, React Router and CSS Modules*
+
+What is this? 🤯
+It's an annex that works as a portfolio, where my projects and links of interest and contact are shown.
+
+How does this work? 🤔
+It's super simple!
+
+- The 'Projects' folder contains projects I've worked on. There you can see my finished projects, which are not many but they are humble.
+- The text file 'Mi C.V.' contains my resume if you're interested.
+- Finally, there are the links of interest that will redirect you to my networks or personal number in case you want to get in touch.
+
+*This is a WIP (Work In Progress) and over the time I will add more links and projects*
+
+Thanks for watching!
+----------------------------------------------
+Bienvenido a mi anexo de links de inter\xe9s 🥳
 *Hecho con React, React Router y CSS Modules*
 
 \xbfQu\xe9 es esto? 🤯
@@ -15,23 +32,4 @@ Es super sencillo!
 *Esto es un trabajo en desarrollo y con el paso del tiempo voy a ir agregando mas links y proyectos*
 
 Gracias por ver!
-
-----------------------------------------------
-
-Welcome to my main page of links of interest 🥳
-*Made with React, React Router and CSS Modules*
-
-What is this? 🤯
-It's an annex that works as a portfolio, where my projects and links of interest and contact are shown.
-
-How does this work? 🤔
-It's super simple!
-
-- The 'Projects' folder contains projects I've worked on. There you can see my finished projects, which are not many but they are humble.
-- The text file 'Mi C.V.' contains my resume if you're interested.
-- Finally, there are the links of interest that will redirect you to my networks or personal number in case you want to get in touch.
-
-*This is a WIP (Work In Progress) and over the time I will add more links and projects*
-
-Thanks for watching!
 `;export default textAbout;

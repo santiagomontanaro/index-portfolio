@@ -17,7 +17,16 @@ function App() {
   // constantly updating the state every 100ms to show the current time
   useEffect(() => {
     setInterval(() => {
-      setDate(new Date().toLocaleDateString('es-ES', { weekday: 'short', month: 'short', day: 'numeric' }) + " " + new Date().toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' }));
+      /*time in order to show the current time in the taskbar*/
+      setDate(new Date().toLocaleDateString('en-US', {
+        /* alternate order of date and time: 'timeStyle: 'short', dateStyle: 'short' */
+        weekday: 'short',
+        month: 'short',
+        year: 'numeric',
+        hour12: true,
+        hour: 'numeric',
+        minute: 'numeric',
+      }));
     }, 100);
   }, []);
 

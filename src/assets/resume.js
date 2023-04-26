@@ -1,57 +1,56 @@
 let textresume = `SANTIAGO MONTANARO | Frontend Developer
 
-//HABILIDADES
-Desarrollador web UI, resolutivo, enfocado y creativo. Tengo buena comunicación interpersonal y me gustan los ambientes de equipo. Dinámico al cambio y a afrontar nuevos retos. Dispuesto a crecer, capacitarme, adaptarme e incluso re-aprender, pero no estoy dispuesto a bajar los brazos.
+//SKILLS
+UI web developer, decisive, focused and creative. I have good interpersonal communication and I like team environments. Dynamic to change and face new challenges. Willing to grow, train, adapt and even re-learn, but I'm not willing to give up.
 
-//LENGUAJES Y HERRAMIENTAS
-● He maquetado sitios mediante HTML y CSS (también SASS).
-● Agregado de funcionalidades mediante JS vanilla.
-● Ciclos de vida y escalabilidad usando REACTJs.
-● Consumo y uso de APIs con la finalidad de traer y renderizar datos externos.
-● Uso de librerías y frameworks mediante NPM y NodeJs.
-● Guardado y control de versiones de proyectos usando GIT y Github.
+//LANGUAGES AND TOOLS
+● I have designed sites using HTML and CSS (also SASS).
+● Added features using JS vanilla
+● Life cycles and scalability using ReactJS.
+● Consumption and use of APIs in order to fetch and render external data.
+● Use of libraries and frameworks through NPM and NodeJs.
+● Saving and version control of projects using GIT and Github.
 
-//EXPERIENCIA
+//EXPERIENCE
 Freelance - Web Design
-2022 - 2022 (6 meses)
-● Maquetación web usando HTML5, CSS3 y JS (vanilla)
-● Desarrollo UI
+2022 - 2022 (6 months)
+● Web layout using HTML5, CSS3 and JS (vanilla)
+● UI Development
 ------------------------------------------
 uTest - QA Testing
-2021 - 2021 (4 meses)
-● Testing de páginas web, software y apps.
-● Detección de errores.
-● Casos de uso y escenarios.
+2021 - 2021 (4 months)
+● Testing of web pages, software and apps.
+● Error detection.
+● Use cases and scenarios.
 ------------------------------------------
-Black & White (pyme) - 3D rendering
+Black & White (SME) - 3D rendering
 2019 - 2021
-● Renders fotorealistas de arquitectura y muebles.
-● Uso de herramientas tales como:
+● Photorealistic renderings of architecture and furniture.
+● Use of tools such as:
     ○ SketchUp
     ○ V-Ray
     ○ Lightroom
     ○ Photoshop
 
-//EDUCACIÓN
-Fyo (agroempresa) - QA Testing
+//EDUCATION
+Fyo (agro-company) - QA Testing
 2021 - 2021
-Curso de Testing QA
-Complementario
+Training with the company Fyo
+Complementary
 ------------------------------------------
-I.S.E.I. 4030 - Instituto Superior de Estudios Informáticos - Analista de Sistemas
+I.S.E.I. 4030 - Higher Institute of Computer Studies - Systems Analyst
 2019 - 2021
-Educación terciaria
+Tertiary education
 ------------------------------------------
-E.E.T. N° 1175 Dr. Gabriel Carrasco - Técnico Electrónico
+E.E.T. N° 1175 Dr. Gabriel Carrasco - Electronic Technician
 2017 - 2018
-Educación Secundaria
+Secondary Education
 ------------------------------------------
-E.E.T.P.I. N° 8235 Ingeniero Enrique B. Gomara - Técnico Electrónico
+E.E.T.P.I. N° 8235 Ingeniero Enrique B. Gomara - Electronic Technician
 2012 - 2014
-Educación Secundaria
+Secondary Education
 
-//IDIOMAS
-● Inglés ( intermedio )
-● Español ( nativo )`
-//export the variable
+//LANGUAGES
+● English oral skills (basic) / writing & reading (intermediate)
+● Spanish (native)`
 export default textresume

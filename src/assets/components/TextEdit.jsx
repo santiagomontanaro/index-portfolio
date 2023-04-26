@@ -65,7 +65,7 @@ function Window() {
           </div>
         </div>
         <div className={style.box_bar_title}>
-          <p>TextEdit - Resumen</p>
+          <p>TextEdit - Resume</p>
         </div>
       </div>
       <hr />
