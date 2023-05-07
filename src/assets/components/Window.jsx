@@ -54,12 +54,12 @@ function Window() {
   const proyects = [
     {
       name: 'GiFacts',
-      icon: chromeIcon,
+      icon: 'https://i.ibb.co/TrcW9xK/nyan-Cat-Icon.png',
       link: 'https://gfacts.vercel.app/'
     },
     {
       name: 'Rick and Morty API',
-      icon: chromeIcon,
+      icon: 'https://i.ibb.co/wh0wKZB/rickIcon.png',
       link: 'https://rnmapi.vercel.app/'
     },
     {
@@ -69,13 +69,18 @@ function Window() {
     },
     {
       name: 'Starbucks Landing Page',
-      icon: chromeIcon,
+      icon: 'https://i.ibb.co/PNTmwWz/starbusck-Icon.webp',
       link: 'https://santiagomontanaro.github.io/starbucks-landing-switch-dark/#'
     },
     {
       name: 'Randomize Color',
-      icon: chromeIcon,
+      icon: 'https://i.ibb.co/DL4Lw0n/randomize-Color.png',
       link: 'https://santiagomontanaro.github.io/color-flipper/'
+    },
+    {
+      name: 'DolAr App',
+      icon: 'https://i.ibb.co/kS6mMnc/dolar-App-logo.png',
+      link: 'https://dollarp.vercel.app/'
     }
   ]
 
@@ -85,7 +90,7 @@ function Window() {
         <div className={style.box_bar_close}>
           <div>
             <ul>
-              <NavLink to={'/'}><li className={style.close} title='Cerrar'></li></NavLink>
+              <NavLink to={'/'}><li className={style.close} title='Close'></li></NavLink>
               <li className={style.minimize}></li>
               <li className={style.expand}></li>
             </ul>

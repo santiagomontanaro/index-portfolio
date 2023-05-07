@@ -58,7 +58,7 @@ function Window() {
         <div className={style.box_bar_close}>
           <div>
             <ul>
-              <NavLink to={'/'}><li className={style.close} title='Cerrar'></li></NavLink>
+              <NavLink to={'/'}><li className={style.close} title='Close'></li></NavLink>
               <li className={style.minimize}></li>
               <li className={style.expand}></li>
             </ul>

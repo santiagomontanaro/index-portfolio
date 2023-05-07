@@ -57,16 +57,21 @@
 .box .main {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: start;
   text-align: center;
-  gap: 1rem;
+  gap: 0rem 1rem;
   padding: 0.5em;
+  flex-wrap: wrap;
 }
-.box .main .items {
+.box .main a {
   height: -moz-fit-content;
   height: fit-content;
+}
+.box .main .items {
   line-height: initial;
-  padding: 10px;
+  padding: 1rem 1rem 0 1rem;
+  width: -moz-min-content;
+  width: min-content;
 }
 .box .main .items:hover {
   background-color: rgba(208, 208, 208, 0.5);
@@ -78,6 +83,8 @@
 }
 .box .main .items img {
   width: 80px;
+  border-radius: 1rem;
+  filter: drop-shadow(0 0 0.3rem rgba(0, 0, 0, 0.25));
 }
 .box .main a {
   color: #000;
