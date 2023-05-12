@@ -2,6 +2,12 @@ import { React, useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 import style from '../scss/Window.module.css'
 import chromeIcon from '../img/chrome-icon.webp'
+import giFactsIcon from '../img/nyan-Cat-Icon.webp'
+import rickIcon from '../img/rickIcon.webp'
+import starbucksIcon from '../img/starbusck-Icon.webp'
+import randomizeColorIcon from '../img/randomize-Color.webp'
+import dolarAppIcon from '../img/dolar-App-logo.webp'
+import elMiradorWebIcon from '../img/mirador-logo.webp'
 
 function Window() {
 
@@ -54,12 +60,12 @@ function Window() {
   const proyects = [
     {
       name: 'GiFacts',
-      icon: 'https://i.ibb.co/TrcW9xK/nyan-Cat-Icon.png',
+      icon: giFactsIcon,
       link: 'https://gfacts.vercel.app/'
     },
     {
       name: 'Rick and Morty API',
-      icon: 'https://i.ibb.co/wh0wKZB/rickIcon.png',
+      icon: rickIcon,
       link: 'https://rnmapi.vercel.app/'
     },
     {
@@ -69,18 +75,23 @@ function Window() {
     },
     {
       name: 'Starbucks Landing Page',
-      icon: 'https://i.ibb.co/PNTmwWz/starbusck-Icon.webp',
+      icon: starbucksIcon,
       link: 'https://santiagomontanaro.github.io/starbucks-landing-switch-dark/#'
     },
     {
       name: 'Randomize Color',
-      icon: 'https://i.ibb.co/DL4Lw0n/randomize-Color.png',
+      icon: randomizeColorIcon,
       link: 'https://santiagomontanaro.github.io/color-flipper/'
     },
     {
       name: 'DolAr App',
-      icon: 'https://i.ibb.co/kS6mMnc/dolar-App-logo.png',
+      icon: dolarAppIcon,
       link: 'https://dollarp.vercel.app/'
+    },
+    {
+      name: 'El Mirador | Servicios Web',
+      icon: elMiradorWebIcon,
+      link: 'https://elmiradorweb.com.ar/'
     }
   ]
 
@@ -106,7 +117,7 @@ function Window() {
           proyects.map((item, index) => {
             return (
               <NavLink key={index} to={`${item.link}`} target='_blank'>
-                <div className={style.items}>
+                <div className={style.items} title={item.name}>
                   <img src={item.icon} alt={item.name} />
                   <p>{item.name}</p>
                 </div>
